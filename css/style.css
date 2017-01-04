@@ -1,0 +1,16 @@
+.logo img {
+  width: 150px; }
+
+.jumbotron {
+  background-color: white; }
+
+.features img {
+  margin: 20px;
+  width: 140px; }
+
+.plan {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .plan .price {
+    width: 20%; }
