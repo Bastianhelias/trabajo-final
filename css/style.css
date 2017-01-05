@@ -1,16 +1,37 @@
+.jumbotron {
+  background-color: transparent; }
+
 .logo img {
   width: 150px; }
 
-.jumbotron {
-  background-color: white; }
+.banner {
+  padding: 30px;
+  background: linear-gradient(180deg, #66a5ff, #0069ff); }
 
-.features img {
-  margin: 20px;
-  width: 140px; }
+.features {
+  padding: 30px; }
+  .features h3 {
+    text-align: center;
+    margin-bottom: 40px; }
+  .features img {
+    padding: 10px;
+    margin: 20px;
+    width: 140px; }
 
 .plan {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  margin: 0 auto;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   .plan .price {
-    width: 20%; }
+    width: 18%;
+    -webkit-flex-flow: flex-wrap;
+    -ms-flex-flow: flex-wrap;
+    flex-flow: flex-wrap; }
+  .plan h2 {
+    font-size: 50px; }
+  .plan ul {
+    list-style: none; }
