@@ -1,33 +1,52 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0px;
+  margin: 0px; }
+
+h3 {
+  text-align: center;
+  margin-bottom: 50px; }
+
 .jumbotron {
   background-color: transparent; }
+
+.plans, .droplet {
+  background: linear-gradient(180deg, #66a5ff, #0069ff);
+  color: white;
+  border: none; }
 
 .logo img {
   width: 150px; }
 
 .banner {
+  margin-top: -20px;
   padding: 30px;
-  background: linear-gradient(180deg, #66a5ff, #0069ff); }
+  background: linear-gradient(180deg, #66a5ff, #0069ff);
+  height: auto;
+  color: white; }
+  .banner .contact {
+    margin-top: 20px; }
+    .banner .contact .box {
+      padding-top: 10px; }
+  .banner .image {
+    margin-top: 20px; }
 
 .features {
   padding: 30px; }
-  .features h3 {
-    text-align: center;
-    margin-bottom: 40px; }
   .features img {
     padding: 10px;
     margin: 20px;
     width: 140px; }
 
 .plan {
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
+  padding: 10px;
+  text-align: left;
   margin: 0 auto;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  .plan .price {
-    width: 18%;
+  .plan .pricing {
+    width: 20%;
     -webkit-flex-flow: flex-wrap;
     -ms-flex-flow: flex-wrap;
     flex-flow: flex-wrap; }
